@@ -20,40 +20,43 @@ https://huggingface.co/bert-base-uncased
 
 
 ### Docker containers:
--Flask: web server 
--Client: Simple HTML with Javascript
--Celery: Celery worker to asynchronously serve model
--Redis: cache and streaming engine
--MLFlow: Machine learning lifecycle
--DB: postgre Database server
+* Flask: web server 
+* Client: Simple HTML with Javascript
+* Celery: Celery worker to asynchronously serve model
+* Redis: cache and streaming engine
+* MLFlow: Machine learning lifecycle
+* DB: postgre Database server
 
 
 ### How to train :
-- pip install -r requirements.txt
--`python train.py
+*  pip install -r requirements.txt
+* `python train.py
 
 The training process is below:
+
 https://github.com/Agid-Co/lsml2/blob/master/lsml2_train.ipynb
 
 
 ### Running model:
-docker-compose up --build`
+* docker-compose up --build
 
 
 ### Checking the application:
--Web Interface - `http://localhost:9091/`
+* Web Interface - `http://localhost:9091/`
 
 First screen:
 Input your sentence for sentimental analysis
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_1.PNG' width="500" height="400"></a>
+  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_1.PNG' width="600" height="250"></a>
 </p>
 
 Result:
 
+You can get positive, negative or neutral with score.
+
 <p align='center'>
-  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_2.PNG' width="500" height="200"></a>
+  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_2.PNG' width="600" height="100"></a>
 </p>
 
 
