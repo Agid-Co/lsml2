@@ -47,13 +47,13 @@ First screen:
 Input your sentence for sentimental analysis
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_1.PNG' width="600" height="400"></a>
+  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_1.PNG' width="500" height="400"></a>
 </p>
 
 Result:
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_2.PNG' width="600" height="200"></a>
+  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_2.PNG' width="500" height="200"></a>
 </p>
 
 
