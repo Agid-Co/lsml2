@@ -31,8 +31,9 @@ https://huggingface.co/bert-base-uncased
 ### How to train :
 - pip install -r requirements.txt
 -`python train.py
-The training process is below.
 
+The training process is below:
+https://github.com/Agid-Co/lsml2/blob/master/lsml2_train.ipynb
 
 
 ### Running model:
@@ -46,16 +47,14 @@ First screen:
 Input your sentence for sentimental analysis
 
 <p align='center'>
-  <a href="#"><img src='https://raw.githubusercontent.com/lsml2/image/Web_Interface_1.PNG' width="700" height="400"></a>
+  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_1.PNG' width="600" height="400"></a>
 </p>
 
 Result:
 
 <p align='center'>
-  <a href="#"><img src='https://raw.githubusercontent.com/lsml2/image/Web_Interface_2.PNG' width="700" height="200"></a>
+  <a href="#"><img src='https://github.com/Agid-Co/lsml2/blob/master/image/Web_Interface_2.PNG' width="600" height="200"></a>
 </p>
 
 
 -MLFLow web interface - `http://127.0.0.1:5000/#/`
-# lsml2
-# lsml
